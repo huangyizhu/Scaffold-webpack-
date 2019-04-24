@@ -1,0 +1,16 @@
+<meta charset="utf-8" />
+<title>
+    {{ htmlWebpackPlugin.options.title }}
+</title>
+<link rel="shortcut icon" href=" {{ htmlWebpackPlugin.options.icon }}" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="robots" content="noindex" />
+<meta name="robots" content="noarchive" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta name="Copyright" Content=" {{ htmlWebpackPlugin.options.copyright }}" />
+<meta name="Description" Content=" {{ htmlWebpackPlugin.options.descriptions }}" />
+<meta name="Keywords" Content=" {{ htmlWebpackPlugin.options.keywords }}" />
+{{#htmlWebpackPlugin.options.ie8fix}}

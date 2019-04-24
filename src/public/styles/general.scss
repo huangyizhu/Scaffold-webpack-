@@ -1,0 +1,179 @@
+//$max-height:1440px;
+//$max-width:2560px;
+//$min-width:320px;
+//$min-height:568px;
+//$font-family:"微软雅黑, Arial, Georgia, Consolas";
+//html,
+//body {
+//    height: 100%;
+//    width: 100%;
+//    margin: 0;
+//    padding: 0;
+//    max-height: $max-height; // min-height: $min-height;
+//    max-width: $max-width;
+//    min-width: $min-width;
+//    font-size: 1em;
+//    font-family: $font-family;
+//}
+
+.clear {
+    margin: 0!important;
+    padding: 0!important;
+    border: none!important;
+    height: 0!important;
+    width: 0!important;
+    clear: both;
+}
+
+.fn {
+    float: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.tl {
+    text-align: left;
+}
+
+.tr {
+    text-align: right;
+}
+
+.tc {
+    text-align: center;
+}
+
+.tj {
+    text-align: justify;
+}
+
+.ma {
+    margin: 0 auto;
+}
+
+.m0 {
+    margin: 0;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.p0 {
+    padding: 0;
+}
+
+.bn {
+    border: 0;
+    border: none;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.picW100 {
+    width: 100%;
+    max-width: 100%;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.pr,.relative {
+    position: relative;
+}
+
+.pa,.absolute {
+    position: absolute;
+}
+
+.pf {
+    position: fixed;
+}
+
+.t0 {
+    top: 0;
+}
+
+.l0 {
+    left: 0;
+}
+
+.r0 {
+    right: 0;
+}
+
+.b0 {
+    bottom: 0;
+}
+
+.nd,.hide {
+    display: none!important;
+}
+
+.di {
+    display: inline;
+}
+
+.db {
+    display: block;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.oh {
+    overflow: hidden;
+}
+
+.oa {
+    overflow: auto;
+}
+
+.ov {
+    overflow: visible!important;
+}
+
+.lsn {
+    list-style-type: none;
+}
+
+.z999 {
+    z-index: 999;
+}
+
+.hideFile {
+    opacity: 0;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.w1 {
+    width: 1em;
+}
+
+.error {
+    color: #FFF;
+    background-color: #000;
+}

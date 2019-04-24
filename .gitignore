@@ -1,0 +1,7 @@
+build/
+dist/
+node_modules/
+test/
+src/private/
+.DS_Store
+.idea/
